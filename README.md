@@ -1,5 +1,5 @@
-AI-Powered RAG Chatbot (FastAPI + LangChain)
-
+# AI-Powered RAG Chatbot (FastAPI + LangChain) #
+ 
 This project is a Retrieval-Augmented Generation (RAG) chatbot built with FastAPI and LangChain that allows users to query documents (PDFs, CSVs, etc.) and get context-aware answers in natural language.
 
 It uses FAISS for vector storage, OpenAI GPT (or HuggingFace models) for LLM responses, and supports conversational memory so that follow-up questions remain contextual.
