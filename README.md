@@ -21,7 +21,7 @@ It uses FAISS for vector storage, OpenAI GPT (or HuggingFace models) for LLM res
 ✅ CORS Enabled – Works seamlessly with React (or any frontend)
 
 
-🛠️ Tech Stack
+##  🛠️ Tech Stack ##
 
 Backend: FastAPI
 Document Processing: LangChain + FAISS
