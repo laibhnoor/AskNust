@@ -24,10 +24,15 @@ It uses FAISS for vector storage, OpenAI GPT (or HuggingFace models) for LLM res
 ##  🛠️ Tech Stack ##
 
 Backend: FastAPI
+
 Document Processing: LangChain + FAISS
+
 LLM: OpenAI GPT-3.5 (configurable)
+
 Embeddings: OpenAI Embeddings or HuggingFace Sentence Transformers
+
 Memory: ConversationBufferMemory (LangChain)
+
 
 seecs-ai-receptionist/
 ├── backend/
@@ -50,32 +55,36 @@ seecs-ai-receptionist/
 ├── .gitignore
 └── README.md
 
-⚡ Setup & Usage
-1️⃣ Clone the Repository
+## ⚡ Setup & Usage ##    
+### 1️⃣ Clone the Repository
 git clone https://github.com/laibhnoor/rag-chatbot.git
 cd rag-chatbot/backend
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Configure Environment Variables
+### 3️⃣ Configure Environment Variables
 Create a .env file in the backend/ folder:
 OPENAI_API_KEY=your_openai_api_key_here
 
-4️⃣ Build the Vector Database
+### 4️⃣ Build the Vector Database
 python ingest.py
 
-
 This will:
+
 Load all PDFs/CSVs from data/
+
 Split into chunks
+
 Create embeddings
+
 Save FAISS index locally in vectorstore/
 
-5️⃣ Run the FastAPI Server
+### 5️⃣ Run the FastAPI Server
 uvicorn main:app --reload
 
 You should see:
+
 ✅ FastAPI is running
 
 Visit http://localhost:8000 to confirm.
