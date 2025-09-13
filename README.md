@@ -35,12 +35,19 @@ Memory: ConversationBufferMemory (LangChain)
 
 
 seecs-ai-receptionist/
+
 ├── backend/
+
 │   ├── app.py              # Main backend server (FastAPI)
+
 │   ├── ingest.py           # Script to load & embed institutional documents
+
 │   ├── retriever.py        # RAG pipeline logic
+
 │   ├── requirements.txt    # Python dependencies
+
 │   ├── .env                # Environment variables (API keys, DB paths)
+
 │   └── data/
 │       └── knowledge_base/ # PDFs, CSVs, docs to embed
 │
