@@ -7,12 +7,19 @@ It uses FAISS for vector storage, OpenAI GPT (or HuggingFace models) for LLM res
 🚀 Features
 
 ✅ Document Loader – Loads multiple PDFs and CSVs from a data/ folder
+
 ✅ Chunking & Embeddings – Splits documents into manageable chunks and generates vector embeddings
+
 ✅ FAISS Vector Database – Stores document embeddings locally for fast retrieval
+
 ✅ RAG Pipeline – Retrieves most relevant chunks and passes them to an LLM for answer generation
+
 ✅ Conversational Memory – Remembers chat history for contextual follow-ups
+
 ✅ FastAPI Backend – Provides REST API endpoints for querying
+
 ✅ CORS Enabled – Works seamlessly with React (or any frontend)
+
 
 🛠️ Tech Stack
 
